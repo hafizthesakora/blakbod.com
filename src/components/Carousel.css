@@ -1,0 +1,62 @@
+.carousel-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.b1 {
+  background: url('/public/images/caro-1.jpeg') center center/cover no-repeat;
+}
+
+.b2 {
+  background: url('/public/images/caro-2.jpeg') center center/cover no-repeat;
+}
+
+.b3 {
+  background: url('/public/images/caro-3.jpeg') center center/cover no-repeat;
+}
+
+.b4 {
+  background: url('/public/images/caro-4.jpeg') center center/cover no-repeat;
+}
+
+p {
+  text-align: center;
+}
+
+.carousel-container > h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-top: 200px;
+}
+
+.carousel-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .carousel-container > h1 {
+    font-size: 70px;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-container > h1 {
+    font-size: 40px;
+    margin-top: 200px;
+  }
+
+  .carousel-container > p {
+    font-size: 28px;
+  }
+}
