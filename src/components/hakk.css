@@ -7,8 +7,12 @@
 }
 .part {
   width: 100%;
-  min-height: 100vh;
+  min-height: 120vh;
   background-color: #fff;
+}
+
+.words {
+  padding: 2rem;
 }
 .container {
   width: 90%;

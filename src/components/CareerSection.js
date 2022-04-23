@@ -4,7 +4,7 @@ import './CareerSection.css';
 export default function CareerSection() {
   return (
     <div class="section">
-      <div class="container">
+      <div class="container-car">
         <div class="content-section">
           <div class="title">
             <h1>Careers</h1>
@@ -23,7 +23,7 @@ export default function CareerSection() {
             </p>
           </div>
         </div>
-        <div class="img-section">
+        <div class="img-section-car">
           <img src="images/sa.jpg" alt="imag" />
         </div>
       </div>

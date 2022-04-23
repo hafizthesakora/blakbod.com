@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Form.css';
 import emailjs from 'emailjs-com';
 
 function Form() {
-  function sendEmail(e) {
+  const navigate = useNavigate();
+  const sendEmail = async (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
@@ -14,11 +16,15 @@ function Form() {
       )
       .then((res) => {
         console.log(res);
+        alert(
+          'Thank you very much for Registering. We will contact you Shortly. You can reach to us if you have any Issues!'
+        );
+        navigate('/contact');
       })
       .catch((err) => {
         console.log(err);
       });
-  }
+  };
   return (
     <div className="form">
       <div class="title">Register for the Blackbod Bootcamp</div>

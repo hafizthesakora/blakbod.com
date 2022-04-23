@@ -113,10 +113,16 @@ p {
   .cards__items {
     display: flex;
   }
+  .cards__container {
+    max-width: 1200px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+  .cards__container {
+    max-width: 1200px;
   }
 }

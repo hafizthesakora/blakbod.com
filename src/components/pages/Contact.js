@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 import ContactSection from '../ContactSection';
 import ContactUsPage from '../ContactUsPage';
+import Footer from '../Footer';
 
 function Contact() {
   return (
     <>
-      <ContactSection />
+      <ContactSection id="start" />
       <ContactUsPage />
       <Footer />
     </>

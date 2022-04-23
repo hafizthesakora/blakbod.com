@@ -7,7 +7,7 @@ export default function Description({ bootcamp }) {
       <>
         <div class="content-section">
           <div class="title">
-            <h1>THE BLAKBOD BOOTCAMP</h1>
+            <h1>BLAKBOD BOOTCAMP</h1>
           </div>
           <div className="content">
             <p className="align">

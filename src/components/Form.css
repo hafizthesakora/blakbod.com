@@ -26,7 +26,6 @@
 
 .title {
   font-size: 32px;
-  /* margin-bottom: 15px; */
 }
 
 .container .title::before {
@@ -144,5 +143,9 @@ form .button input:hover {
 @media (max-width: 459px) {
   .container .content .category {
     flex-direction: column;
+  }
+
+  .title {
+    margin: 32px;
   }
 }

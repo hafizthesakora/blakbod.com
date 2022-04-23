@@ -18,6 +18,7 @@ function ProductSection() {
           GET STARTED
         </Button>
         <Button
+          video
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"

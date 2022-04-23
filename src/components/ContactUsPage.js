@@ -4,7 +4,7 @@ import './ContactUsPage.css';
 export default function MissionSection() {
   return (
     <div class="section-cp">
-      <div class="container">
+      <div class="container-con">
         <div class="contentsection">
           <div class="title">
             <h1>Contact Us </h1>
