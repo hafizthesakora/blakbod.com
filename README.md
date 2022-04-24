@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was designed, engineered and developed by Hafiz Toyyib, (MERN full stack developer).
 
 ## Available Scripts
 
