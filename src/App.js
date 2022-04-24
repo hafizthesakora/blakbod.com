@@ -34,3 +34,5 @@ function App() {
 }
 
 export default App;
+
+// This project was designed, engineered and developed by Hafiz Toyyib, (MERN full stack developer).
