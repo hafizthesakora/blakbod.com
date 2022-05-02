@@ -51,7 +51,7 @@ export default function Description({ bootcamp }) {
               BLAKBOD is a limited liability company registered under the
               registrar generals department of Ghana to undertake software
               developmemnt, hardware configuration, AI simulations and other I.T
-              related activities. At blackbod we are headed by Abdul Haqq Musah
+              related activities. At blakbod we are headed by Abdul Haqq Musah
               Adam, a computer scientist with a drive to reshape the
               technological landscape of Ghana and Africa. <br />
             </p>
@@ -72,8 +72,8 @@ export default function Description({ bootcamp }) {
   };
 
   return (
-    <div class="section">
-      <div class="container">
+    <div class="section-desc">
+      <div class="container-desc">
         {bootcamp ? <AboutDescription /> : <BootcampDesc />}
       </div>
     </div>

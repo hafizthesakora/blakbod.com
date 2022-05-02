@@ -11,14 +11,14 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/service-4.jpeg"
-              text="We are ready to integrate AI capabilities in your business operations."
-              label="Artificial Intelligence"
+              text="We can set up your AWS, Google, clod platforms within a short time for you to continue your business with limited downtime."
+              label="CLOUD SERVER MANAGEMENTS - DEVOPS"
               path="/services"
             />
             <CardItem
               src="images/service-2.jpeg"
-              text="We are ready to integrate AI capabilities in your business operations."
-              label="Web development"
+              text="We can assist you in the design, development and manufacturing of your electronic hardware solutions."
+              label="CUSTOM HARDWARE DESIGN & MANUFACTURING"
               path="/services"
             />
           </ul>

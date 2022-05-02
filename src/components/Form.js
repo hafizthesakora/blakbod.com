@@ -27,7 +27,7 @@ function Form() {
   };
   return (
     <div className="form">
-      <div class="title">Register for the Blackbod Bootcamp</div>
+      <div class="title">Register for the Blakbod Bootcamp</div>
       <div class="content">
         <form onSubmit={sendEmail}>
           <div class="user-details">

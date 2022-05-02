@@ -34,66 +34,85 @@ function Navbar() {
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className="nav-item">
-              <a
-                href="/services"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="/solutions"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Solutions
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/career" className="nav-links" onClick={closeMobileMenu}>
-                Careers
-              </a>
-            </li>
-            <li className="nav-item go">
-              About Us <i className="fa fa-caret-down" aria-hidden="true"></i>
-              <ul>
-                <li>
-                  <a href="/about-us" className="nav-links">
-                    Meet the Team
-                  </a>
-                </li>
-                <li>
-                  <a href="/mission-vision" className="nav-links">
-                    Mission and Vision
-                  </a>
-                </li>
-                <li>
-                  <a href="/core-values" className="nav-links">
-                    Core Values
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li className="nav-item">
-              <a href="/contact" className="nav-links">
-                Contact
-              </a>
-            </li>
+          <div className="bar">
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+              <li className="nav-item">
+                <a
+                  href="/services"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Services
+                </a>
+              </li>
 
-            {/* <li>
-              <a
-                href="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                BOOTCAMP {new Date().getFullYear()}
-              </a>
-            </li> */}
-          </ul>
+              <li className="nav-item">
+                <a
+                  href="/solutions"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Solutions
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a
+                  href="/career"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Careers
+                </a>
+              </li>
+              <li className="nav-item go">
+                About Us <i className="fa fa-caret-down" aria-hidden="true"></i>
+                <ul>
+                  <li>
+                    <a href="/about-us" className="nav-links">
+                      Meet the Team
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/mission-vision" className="nav-links">
+                      Mission and Vision
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/core-values" className="nav-links">
+                      Core Values
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <a href="/contact" className="nav-links">
+                  Contact
+                </a>
+              </li>
+
+              <li className="nav-item gone">
+                <a
+                  href="/about-us"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  About US
+                </a>
+              </li>
+
+              <li className="nav-item gone">
+                <a
+                  href="/sign-up"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  BOOTCAMP {new Date().getFullYear()}
+                </a>
+              </li>
+            </ul>
+          </div>
+
           {button && (
             <Button buttonStyle="btn--outline">
               BOOTCAMP {new Date().getFullYear()}

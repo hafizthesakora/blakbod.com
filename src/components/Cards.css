@@ -125,4 +125,7 @@ p {
   .cards__container {
     max-width: 1200px;
   }
+  .cards__wrapper {
+    width: 100vw;
+  }
 }

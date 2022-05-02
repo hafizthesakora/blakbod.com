@@ -16,8 +16,16 @@
   margin: auto;
   padding-top: 100px;
 }
+.design {
+  display: flex;
+  flex-direction: row;
+}
 .contentsection {
   width: 100%;
+}
+
+.content {
+  display: block;
 }
 
 .align {
@@ -75,39 +83,18 @@ table td {
   color: #3d3d3d;
 }
 @media screen and (max-width: 768px) {
-  .container {
-    width: 80%;
-    display: block;
+  .container-con {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto;
     margin: auto;
     padding-top: 50px;
+    padding-left: 2rem;
   }
   .contentsection {
     float: none;
     width: 100%;
     display: block;
     margin: auto;
-  }
-  .imagesection {
-    float: none;
-    width: 100%;
-  }
-  .imagesection img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-  }
-  .contentsection .title {
-    text-align: center;
-    font-size: 19px;
-  }
-  .contentsection .content .button {
-    text-align: center;
-  }
-  .contentsection .content .button a {
-    padding: 9px 30px;
-  }
-  .contentsection .social {
-    text-align: center;
   }
 }
