@@ -82,7 +82,7 @@ table td {
 .contentsection .social i:hover {
   color: #3d3d3d;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .container-con {
     width: 100vw;
     display: grid;
@@ -96,5 +96,9 @@ table td {
     width: 100%;
     display: block;
     margin: auto;
+  }
+  .design {
+    display: flex;
+    flex-direction: column;
   }
 }

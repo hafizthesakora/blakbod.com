@@ -43,14 +43,14 @@ p {
     'Lucida Sans', Arial, sans-serif;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
   .carousel-container > h1 {
     font-size: 70px;
     margin-top: 150px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .carousel-container > h1 {
     font-size: 40px;
     margin-top: 200px;

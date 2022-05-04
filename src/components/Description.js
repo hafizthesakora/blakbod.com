@@ -41,7 +41,7 @@ export default function Description({ bootcamp }) {
   const BootcampDesc = () => {
     return (
       <>
-        <div class="content-section">
+        <div class="content-section-desc">
           <div class="title">
             <h1>BLAKBOD GHANA</h1>
             <div className="border"></div>
