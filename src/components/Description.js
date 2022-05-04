@@ -16,7 +16,7 @@ export default function Description({ bootcamp }) {
               train students in the following areas for a duration of 6
               weeks(every saturday) for 4 hrs with a focus on the following;{' '}
               <b>
-                Web Development, Graphic Design, Public speaking Business
+                Web Development, Graphic Design, Public speaking, Business
                 development.
               </b>{' '}
               Over the years we have partnered with various companies to help us

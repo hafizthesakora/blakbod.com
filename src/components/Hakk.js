@@ -7,7 +7,7 @@ export default function Hakk() {
       <div class="container">
         <div class="ctnt-section">
           <div class="title">
-            <h1>Meet Our C. E. O</h1>
+            <h1>Meet Our C.E.O</h1>
             <div className="border"></div>
           </div>
           <div className="words">
