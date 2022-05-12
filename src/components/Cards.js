@@ -11,7 +11,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/service-4.jpeg"
-              text="We can set up your AWS, Google, clod platforms within a short time for you to continue your business with limited downtime."
+              text="We can set up your AWS, Google, cloud platforms within a short time for you to continue your business with limited downtime."
               label="CLOUD SERVER MANAGEMENTS - DEVOPS"
               path="/services"
             />
